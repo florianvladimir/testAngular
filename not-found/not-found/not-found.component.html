@@ -1,0 +1,7 @@
+<div class="content">
+  <!--<div [@loader]="load" (@loader.done)="changeLoad()" (click)="load='right'" class="line"></div>-->
+  <div [@rotate]="status" (@rotate.done)="changeStatus()" class="fehler" (click)="status='onkl'">
+  </div>
+  <div [@zoom]="zoom" (@zoom.done)="zoom='normal'" (click)="zoom='scale'" class="error-code">404</div>
+  <div class="notFound" (click)="zoom='scale'">Page Not Found</div>
+</div>

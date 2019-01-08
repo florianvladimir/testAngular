@@ -1,0 +1,38 @@
+.fehler{
+  width: 400px;
+  height: 400px;
+  background-color: #ce2635;
+  margin: 200px auto;
+  border-top: #fafafa 0.05rem solid;
+  border-bottom: #fafafa 0.05rem solid;
+}
+.content{
+  height: 100vh;
+  width: 100%;
+  background-color: #242424;
+  padding: 200px auto;
+  position: absolute;
+  overflow: hidden;
+}
+.notFound{
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  color: #e1e1e1;
+  font-size: 50px;
+}
+
+.error-code{
+  position: absolute;
+  top: 330px;
+  left: 874px;
+  font-family: 'Quicksand', sans-serif;
+  color: #e1e1e1;
+  font-size: 100px;
+  cursor: context-menu;
+}
+
+.line{
+  width: 200px;
+  height: 3px;
+  background-color: #e1e1e1;
+}
